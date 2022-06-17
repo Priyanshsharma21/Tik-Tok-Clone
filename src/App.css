@@ -1,0 +1,29 @@
+html{
+    scroll-snap-type: y mandatory;
+}
+
+.app{
+    background: linear-gradient(to bottom, black,rgb(24, 24, 24),rgb(37, 37, 37),rgb(47, 47, 47),rgb(87, 87, 87));
+    height: 100vh;
+
+    /* center item hack  */
+    display: grid;
+    place-items: center;
+}
+
+/* snap logic */
+.app_video{
+    /* relative means all the rules will be applied within the container only */
+    position: relative; 
+    overflow: scroll;
+    border-radius: 20px;
+    height: 800px;
+    width: 80%;
+    max-width: 500px;
+    scroll-snap-type: y mandatory;
+
+}
+
+.app_video::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,36 @@
+Material UI
+Firebase Hosting 
+useRef hook
+css hacks 
+Flexbox
+3rd party
+
+
+1. Setup
+create reate app
+
+2. Firebase setup 
+
+3. component structure
+3.1 -> one big video component
+3.2 -> This video component has side-bar(Like,comment,share)
+3.3 -> A footer has spinner and what song playing who share vide nd description
+
+
+
+some urls 
+
+1.
+https://player.vimeo.com/external/643133986.sd.mp4?s=8decaf5f786f006444eb65de60924c546b3c634d&profile_id=165&oauth_token_id=57447761
+
+2.
+https://player.vimeo.com/external/398796840.sd.mp4?s=3c90b81d123ec12b716145d0d85e6dc584c9bed7&profile_id=165&oauth2_token_id=57447761
+
+3.
+https://player.vimeo.com/progressive_redirect/playback/713853015/rendition/720p/file.mp4?loc=external&oauth2_token_id=57447761&signature=41b92e10d55f2245d6fdd972d70c2cee5dc13d0785279c14dd1470ae0b3b1488
+
+4.
+
+
+
+

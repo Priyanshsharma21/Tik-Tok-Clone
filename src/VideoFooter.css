@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka:wght@300&family=Halant:wght@300&family=Josefin+Sans:wght@500&family=M+PLUS+1:wght@200&family=Montserrat+Alternates:wght@100&family=Montserrat:wght@100;400&family=Mukta:wght@200&family=Nanum+Gothic:wght@700&family=News+Cycle&family=Newsreader:opsz,wght@6..72,200;6..72,400&family=PT+Sans+Narrow:wght@400;700&family=Press+Start+2P&family=Prompt&family=Quicksand:wght@300;400&family=Raleway:ital,wght@0,200;0,500;1,400&family=Sarabun:wght@200&family=Satisfy&family=Signika:wght@300&family=Source+Code+Pro:wght@300;700&family=Tajawal&family=Ubuntu:ital,wght@0,300;1,700&family=Varela+Round&display=swap');
+
+
+.videoFooter{
+    position: relative;
+    color: white;
+    display: flex;
+    bottom: 150px;
+    margin-left: 26px;
+
+    
+}
+
+.videoFooter_record{
+    animation: spinTheRecord infinite 5s linear;
+    height: 39px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 21px;
+    /* to see the animation */
+}
+
+.videoFooter_text{
+    flex: 1;
+    position: relative;
+    left: 4px;
+    font-family: 'Quicksand', sans-serif;
+}
+.music__note{
+    filter: invert(1);
+}
+
+.username{
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.desc_name{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.video_footer_ticker p{
+    padding-top: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    bottom: 10px;
+    overflow: hidden;
+}
+
+.video_footer_icon{
+position: absolute;
+top: 60px;
+left: -9px;
+}
+
+.video_footer_ticker .ticker{
+    height: fit-content;
+    margin-left: 19px;
+    width: 60%;
+    margin-top: 6px;
+    font-size: 1rem;
+}
+
+@keyframes spinTheRecord{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
